@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basketball</title>
+</head>
+<body onload="displayPlayerOneScore(); displayPlayerTwoScore()">
+<h1>Basketball Game</h1>
+<div>
+    <h2>Player One</h2>
+    <h2 id="playerOneScore"> </h2>
+    <button onclick="onePointPlayerOne()">One Point</button>
+    <button onclick="twoPointsPlayerOne()">Two Points</button>
+    <button onclick="threePointsPlayerOne()">Three Points</button>
+</div>
+<div>
+    <h2>Player Two</h2>
+    <h2 id="playerTwoScore">Score:</h2>
+    <button onclick="onePointPlayerTwo()">One Point</button>
+    <button onclick="twoPointsPlayerTwo()">Two Points</button>
+    <button onclick="threePointsPlayerTwo()">Three Points</button>
+</div>
+<br>
+<div>
+    <button onclick="restartGame()">Restart</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
